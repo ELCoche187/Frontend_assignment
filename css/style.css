@@ -965,7 +965,7 @@ footer {
   width: 60%;
   padding-right: 20px;
   margin-left: 100px;
-  height: 1000px;
+  height: fit-content;
 }
 
 .instructions h2 {
@@ -1066,6 +1066,133 @@ footer {
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
-  
+  /* General adjustments */
+  :root {
+    --padding-default: 10px;
+    --grid-gap: 5px;
+    --width-12col: 100%; /* Full width for small screens */
+  }
 
+  /* Body and Container */
+  body {
+    padding: var(--padding-default);
+  }
+
+  .container, .menu-container, .hero-container, .todays_recipes_content {
+    width: var(--width-full); /* Make full width */
+    padding: 0 var(--padding-default);
+  }
+
+  /* Navigation Menu */
+  .menu-container ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu-container ul li {
+    margin: 5px 0;
+  }
+
+  /* Hero Section */
+  .hero {
+    min-height: 300px;
+    margin-top: 0;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    padding: 0 var(--padding-default);
+  }
+
+  .hero-text {
+    grid-column: 1 / span 1;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .hero-text-smallest,
+  .hero-text-medium,
+  .hero-text-large {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero-search {
+    grid-column: 1 / span 1;
+    margin-top: 20px;
+  }
+
+  /* Today's Recipes Section */
+  .todays_recipes_content {
+    grid-template-columns: 1fr; /* One column on small screens */
+    padding: 0 var(--padding-default);
+  }
+
+  .todays_recipes_content_block {
+    margin-bottom: var(--grid-gap);
+  }
+
+  .todays_recipes_headline {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  /* Recipe Grid */
+  .recipe-grid {
+    grid-template-columns: 1fr; /* Stack columns */
+  }
+
+  /* Recipe Card */
+  .recipe-card {
+    flex-direction: column;
+  }
+
+  .image-section,
+  .text-section {
+    padding: var(--padding-default);
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-container > div {
+    margin-bottom: 10px;
+  }
+
+  .footer-container::before {
+    display: none; /* Hide the divider */
+  }
+
+  /* Category Selection */
+  .category-selection table {
+    width: 100%;
+  }
+
+  /* Recipe Page Adjustments */
+  .recipe_details {
+    grid-template-columns: 1fr;
+    padding: 0 var(--padding-default);
+  }
+
+  .recipe_details_left,
+  .recipe_details_right {
+    grid-column: 1 / -1;
+  }
+
+  /* Instructions and Ingredients Sections */
+  .instructions, .ingredients-continue, .instructions-again, .ingredients-continue-again {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .step-number, .step-number-again {
+    writing-mode: horizontal-tb;
+    transform: none;
+    margin-bottom: 5px;
+  }
 }
+
