@@ -991,8 +991,8 @@ footer {
   font-size: 14px;
   color: var(--primary-color);
   font-weight: bold;
-  writing-mode: vertical-rl; /* Position step number vertically */
-  transform: rotate(180deg); /* Rotate to appear horizontally */
+  writing-mode: vertical-rl; 
+  transform: rotate(180deg); 
   margin-right: 10px;
 }
 
@@ -1045,7 +1045,7 @@ footer {
 }
 
 .ingredients input[type="checkbox"] {
-  display: none; /* Hide the checkbox */
+  display: none; 
 }
 
 /* Style for the checked state */
@@ -1055,7 +1055,7 @@ footer {
 
 .ingredients input[type="checkbox"]:checked + label i {
   color: var(--primary-color);
-  content: "\f111"; /* Change icon to check-circle */
+  content: "\f111"; 
 }
 
 .ingredients label i {
@@ -1070,7 +1070,7 @@ footer {
   :root {
     --padding-default: 10px;
     --grid-gap: 5px;
-    --width-12col: 100%; /* Full width for small screens */
+    --width-12col: 100%; 
   }
 
   /* Body and Container */
@@ -1079,7 +1079,7 @@ footer {
   }
 
   .container, .menu-container, .hero-container, .todays_recipes_content {
-    width: var(--width-full); /* Make full width */
+    width: var(--width-full); 
     padding: 0 var(--padding-default);
   }
 
@@ -1124,7 +1124,7 @@ footer {
 
   /* Today's Recipes Section */
   .todays_recipes_content {
-    grid-template-columns: 1fr; /* One column on small screens */
+    grid-template-columns: 1fr; 
     padding: 0 var(--padding-default);
   }
 
@@ -1139,7 +1139,7 @@ footer {
 
   /* Recipe Grid */
   .recipe-grid {
-    grid-template-columns: 1fr; /* Stack columns */
+    grid-template-columns: 1fr; 
   }
 
   /* Recipe Card */
@@ -1163,7 +1163,7 @@ footer {
   }
 
   .footer-container::before {
-    display: none; /* Hide the divider */
+    display: none; 
   }
 
   /* Category Selection */
