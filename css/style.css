@@ -97,7 +97,7 @@ body {
 }
 
 .hero { /* Parent with 100% width*/
-  background-image: url('https://s3-alpha-sig.figma.com/img/373d/b832/eb54bd65b2060f54024c3d369b383fa9?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GN2lC6pyfrioEXB4bAm37GHKbKWln2jJjjCO6sONbc8cFu19VoQrKBN8NPygNhO-18M2hw1tPy3R~-BeucHvMnKg9~3-WZzSWj6q4nyPQ2-WkpZ~EpyDxJ45w1UO10ewLJ-qsQrgiHYVYTWvfphnwv1vD4PNC5bcbQfXHKbnncB06MZIaLhbFye5i-hzJd05S8~jmhhtWMcX05KiGBPHwRmacuonD9~WqYpAjngTJ-mEMIS~aoXYMuyZ2nHphnhDqtK35qnQf4Uc8hnteEkfSdjCJDbc7GU15i3oFfCDxK0QIf3prAMWjGewgUWTZeYBrinGNOCU6ixdBHHdyYrhoA__');
+  background:url(..img\eb54bd65b2060f54024c3d369b383fa9.jpg);
   width:var(--width-full);
   height:auto;
   min-height:600px;
@@ -205,7 +205,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: var(--grid-gap);
     box-sizing: border-box;
-    width: var(--width-12col);
+    width: var(--width-full);
     margin: 0 auto;
  }
 
@@ -1124,18 +1124,56 @@ footer {
 
   /* Today's Recipes Section */
   .todays_recipes_content {
-    grid-template-columns: 1fr; 
-    padding: 0 var(--padding-default);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--grid-gap);
+    padding: var(--padding-default);
   }
 
   .todays_recipes_content_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: var(--grid-gap);
+  }
+
+  .todays_recipes_content_block_image img {
+    width: 100%; 
+    max-width: 100%;
+    height: auto; 
+    display: block;
+  }
+
+  .todays_recipes_content_block_image_first img {
+    width: 100%; 
+    max-width: 100%;
+    height: auto; 
+    display: block;
   }
 
   .todays_recipes_headline {
     font-size: 24px;
     text-align: center;
+    margin-bottom: var(--grid-gap);
   }
+
+  .category-selection table {
+    width: 100%; 
+  }
+
+  .category-selection td, 
+  .category-selection th {
+    font-size: 14px; 
+    word-wrap: break-word; 
+    white-space: normal; 
+    text-align: center; 
+    padding: 8px; 
+  }
+
+  .category-selection tr {
+    margin-bottom: 10px; 
+  }
+
 
   /* Recipe Grid */
   .recipe-grid {
