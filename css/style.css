@@ -352,248 +352,236 @@ body {
  }
 
  .todays_recipes_content_block_bottom_area_right button {
-    background-color: var(--color_dark);
-    border: 1px solid var(--background-color-light);
-    padding: 8px 16px;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 700;
-    cursor: pointer;
- }
+  background-color: var(--color_dark);
+  border: 1px solid var(--background-color-light);
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
 
- .todays_recipes_content_block_bottom_area_right button a {
-    color: var(--background-color-light);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
- }
+.todays_recipes_content_block_bottom_area_right button a {
+  color: var(--background-color-light);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
 
- /* Stylizace sekce "Category Selection" */
 .category-selection {
-    text-align: center;
-    margin: 50px 0;
+  text-align: center;
+  margin: 50px 0;
 }
 
 /* Nadpis */
 .category-selection h3 {
-  text-transform: uppercase;
-  font-size: 36px;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
+text-transform: uppercase;
+font-size: 36px;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
 }
 
 /* Bílé podtržítko */
 .category-selection hr {
-  border: 1px solid var(--background-color-light);
-  width: 100%;
-  margin-bottom: 30px;
+border: 1px solid var(--background-color-light);
+width: 100%;
+margin-bottom: 30px;
 }
 
-/* Tabulka kategorií */
 .category-selection table {
-    background-color: var(--background-color-light);
-    padding: 20px;
-    border-radius: 10px;
-    margin: 0 auto;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--background-color-light);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Stylizace jednotlivých buněk v tabulce */
 .category-selection td {
-    padding: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    color: var(--color_dark);
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color_dark);
 }
 
-/* Ikony v tabulce */
 .category-selection img {
-    width: 50px;
-    margin-bottom: 10px;
+  width: 50px;
+  margin-bottom: 10px;
 }
 
-/* Centrování tabulky */
 .category-selection div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 table {
-    width: 80%; 
-    table-layout: fixed; 
+  width: 80%; 
+  table-layout: fixed; 
 }
 
 td {
-    padding: 10px; 
-    text-align: center;
-    vertical-align: middle;
+  padding: 10px; 
+  text-align: center;
+  vertical-align: middle;
 }
 
 i {
-    font-size: 50px; /* Increases icon size */
+  font-size: 50px; 
 }
 
 tr {
-    height: 10px; 
+  height: 10px; 
 }
-
 
 
 .image_below img {
-  width: 100%; 
-  height: auto; 
-  object-fit: cover; 
-  clip-path: polygon(0 16%, 100% 34%, 100% 100%, 0% 100%); 
+width: 100%; 
+height: auto; 
+object-fit: cover; 
+clip-path: polygon(0 16%, 100% 34%, 100% 100%, 0% 100%); 
 }
 
 
-/* Hero image section styles */
 .heroimage {
-  width: 100%;
-  height: 600px; /* Adjust the height as needed */
-  background-image: url('https://s3-alpha-sig.figma.com/img/d126/448b/7916a93b8533afdfadbf849f32c00aea?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=F6GOYjo4qgJrvyrJN5ZBXoF7h3DD8s921FwfolZWM0DfumItPB-AXRXOtySlUx-dS5AdfYZXfP9pro-P5HApWxsBR8UvBcLgnFN0uAMmb-bWPCfeKNmeHYrMv~~EJJgQlpK42VzpCXftK5gSnhbBy8YQXSRX-1fQK6kkImCicfvAf2Rr22js1vUXZ5GmTtSVhUeSuZPDEwJ3DL~-BmZPklBQqHezyoHKGL-38s7-sd7UL7N-3wcADJGqpqlax8sMeBp2i6pqhQMtRyRv4Roph-AVPi~qgX9D3jC6pX1qX89KsPsJxmuFhbt4uQpibd5cvmuLkz5aLlYD5rZNp6HTSQ__'); /* Replace with your desired image URL */
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  clip-path: polygon(0 16%, 100% 34%, 100% 100%, 0% 100%); 
+width: 100%;
+height: 600px; 
+background-image: url('https://s3-alpha-sig.figma.com/img/d126/448b/7916a93b8533afdfadbf849f32c00aea?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LiOAK9u9ODtqrw3q3~Hv3OKHWE9Wu9rHpSx~PKjz1h7yIiLJ885l14jTPwNQIF63ze9GJO5W-od4Fuj7hZNQi1qPpCuioQX40v9K0dr0D-8AjjcoV18rzjNCZeX2wZG8Y8lUaOFr~FqaxUIocdDoW8iNRnyFnSCZn1DOPRLJsUc6yK38JE-YfqZYVsmkYccUH6oOIIB1hdhzAUsQeJ4~iFg2ydeALlD6t3uGABL7D5zmvUA-gFTJmwoYJBl6Fi5PEXk6r6yzTgkqw7FuVgOBFI1TZXU8yy8zYZ1XklwOX4cnra16BFneCVV67zf~WUSachixkuXM7adTXgqaDjNocg__'); 
+background-size: cover;
+background-position: center;
+position: relative;
+clip-path: polygon(0 16%, 100% 34%, 100% 100%, 0% 100%); 
 }
 
-/* Square box with text inside */
 .text-box {
-  background-color: var(--color-light);
-  width: 300px; 
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 250px; 
-  right: 80px; 
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
+background-color: var(--color-light);
+width: 300px; 
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 250px; 
+right: 80px; 
+padding: 20px;
+text-align: center;
+border-radius: 10px;
 }
 
-/* Large orange text */
 .hero-title {
-  font-size: 28px; 
-  color: var(--primary-color);
-  margin-bottom: 10px;
-  font-weight: bold;
+font-size: 28px; 
+color: var(--primary-color);
+margin-bottom: 10px;
+font-weight: bold;
 }
 
-/* Smaller black text */
 .hero-subtext {
-  font-size: 16px; 
-  color: var(--background-color-navigation);
+font-size: 16px; 
+color: var(--background-color-navigation);
 }
 
-/* Reset some basic styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--background-color-dark-bg);
-  color: var(--background-color-light);
-  padding: 20px;
+font-family: 'Roboto', sans-serif;
+background-color: var(--background-color-dark-bg);
+color: var(--background-color-light);
+padding: 20px;
 }
 
 h1 {
-  text-transform: uppercase;
-  font-size: 36px;
-  margin-bottom: 10px;
+text-transform: uppercase;
+font-size: 36px;
+margin-bottom: 10px;
 }
 
 hr {
-  border: 1px solid var(--background-color-light);
-  width: 100%;
-  margin-bottom: 30px;
+border: 1px solid var(--background-color-light);
+width: 100%;
+margin-bottom: 30px;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 2rem;
+max-width: 1200px;
+margin: 0 auto;
 }
 
 /* Recipe Grid */
 .recipe-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
 /* Recipe Card */
 .recipe-card {
-  background-color: var(--color-light);
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  overflow: hidden;
-  position: relative;
-  min-height: fit-content;
+background-color: var(--color-light);
+display: flex;
+flex-direction: row;
+align-items: stretch;
+overflow: hidden;
+position: relative;
 }
 
 /* Text Section of the Card */
 .text-section {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1;
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+flex: 1;
 }
 
 .text-section p.small-text {
-  color: var(--primary-color);
-  font-size: 12px;
-  margin-bottom: 10px;
+color: var(--primary-color);
+font-size: 12px;
+margin-bottom: 10px;
 }
 
 .text-section h2 {
-  color: var(--color_dark);
-  font-size: 24px;
-  margin-bottom: 10px;
-  font-weight: 700;
+color: var(--color_dark);
+font-size: 24px;
+margin-bottom: 10px;
+font-weight: 700;
 }
 
 .text-section p {
-  color: var(--color_dark);
-  font-size: 16px;
-  margin-bottom: 20px;
+color: var(--color_dark);
+font-size: 16px;
+margin-bottom: 20px;
 }
 
 .cta-button {
-  background-color: var(--color_dark);
-  color: var(--background-color-light);
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-size: 12px;
+background-color: var(--color_dark);
+color: var(--background-color-light);
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 12px;
+max-width: 120px;
 }
 
 .cta-button:hover {
-  background-color: var(--primary-color);
+background-color: var(--primary-color);
 }
 
 /* Image Section */
 .image-section {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .image-section img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+width: 100%;
+height: auto;
+object-fit: cover;
 }
 
 footer {
