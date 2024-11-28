@@ -381,7 +381,7 @@ body {
   align-items: center;
   justify-self: flex-start;
   margin: 60px auto;
-  width:var(--width-12col);
+  width: 100%;
   font-size:50px;
   text-shadow: 1px 1px 2px var(--background-color-dark-bg);
   padding: 70 0 0 70 0;
@@ -390,7 +390,7 @@ body {
 .category_content {
   display: flex;
   height: fit-content;
-  width: var(--width-12col);
+  width: 100%;
   justify-content: space-around;
   align-items: center;
   padding: 40px;
